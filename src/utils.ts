@@ -1,4 +1,4 @@
-import { AqaraResponse } from './types'
+import { AqaraResponse } from './types.js'
 
 // Custom error class for Aqara API errors
 export class AqaraError extends Error {

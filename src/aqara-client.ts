@@ -2,8 +2,8 @@ import axios, { AxiosInstance, AxiosRequestHeaders, InternalAxiosRequestConfig }
 import crypto from 'crypto';
 import Bottleneck from 'bottleneck';
 import NodeCache from 'node-cache';
-import { AqaraConfig, AqaraResponse, Device, Scene } from './types';
-import { handleAqaraResponse, handleAqaraError } from './utils';
+import { AqaraConfig, AqaraResponse, Device, Scene } from './types.js';
+import { handleAqaraResponse, handleAqaraError } from './utils.js';
 
 export class AqaraClient {
   private client: AxiosInstance;
