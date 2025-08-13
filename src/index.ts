@@ -1,9 +1,9 @@
 import { FastMCP } from 'fastmcp';
 import { z } from 'zod';
 import dotenv from 'dotenv';
-import { AqaraClient } from './aqara-client';
-import { DeviceSchema, SceneSchema } from './types';
-import { validateEnvironment, formatError, parseTimeString } from './utils';
+import { AqaraClient } from './aqara-client.js';
+import { DeviceSchema, SceneSchema } from './types.js';
+import { validateEnvironment, formatError, parseTimeString } from './utils.js';
 
 // Load environment variables
 dotenv.config();
