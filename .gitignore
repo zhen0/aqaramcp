@@ -5,10 +5,13 @@ node_modules/
 build/
 dist/
 
-# Environment variables
+# Environment variables and secrets
 .env
 .env.local
+.env.development
+.env.test
 .env.production
+*.env
 
 # Logs
 *.log
@@ -33,3 +36,35 @@ Thumbs.db
 
 # Cache
 .cache/
+.parcel-cache/
+.nyc_output/
+coverage/
+*.lcov
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Temporary folders
+tmp/
+temp/
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Editor temp files
+*~
